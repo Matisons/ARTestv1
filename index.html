@@ -1,10 +1,21 @@
 <!doctype html>
 <html>
     <head>
+        <title>&lt;ARTestv1&gt;</title>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
        
     </head>
 
     <body>
+        <model-viewer src="/assets/Astronaut.glb"
+                  ios-src="/assets/Astronaut.usdz"
+                  poster="/assets/poster-astronaut.png"
+                  alt="A 3D model of an astronaut"
+                  shadow-intensity="1"
+                  camera-controls
+                  auto-rotate ar>
+        </model-viewer>
           
     </body>
 </html>
